@@ -1,0 +1,6 @@
+{
+  "name": "Lab 3 Quiz",
+  "description": "An anti-cheating, highly interactive test portal for OOP concepts featuring dynamic questions, full-screen reinforcement, tab-switch detection, and confetti results.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
