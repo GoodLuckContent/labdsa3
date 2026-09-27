@@ -66,7 +66,7 @@ export const mcqQuestions: MCQQuestion[] = [
   {
     id: "mcq_5",
     type: "mcq",
-    question: "As per the lab content, what pointers does a doubly linked list node have?",
+    question: "What pointers does a doubly linked list node have?",
     options: [
       "a pointer to itself and no other node",
       "a pointer to the next node as well as a pointer to the previous node",
@@ -99,7 +99,7 @@ export const mcqQuestions: MCQQuestion[] = [
   {
     id: "mcq_8",
     type: "mcq",
-    question: "According to the lab material, what does the last node in a singly linked list typically point to?",
+    question: "What does the last node in a singly linked list typically point to?",
     options: [
       "typically points back to the head node to form a loop",
       "typically points to NULL to indicate the end of the list",
@@ -132,7 +132,7 @@ export const mcqQuestions: MCQQuestion[] = [
   {
     id: "mcq_11",
     type: "mcq",
-    question: "According to the lab material, what does the Insert function do in a Circular Linked List?",
+    question: "What does the Insert function do in a Circular Linked List?",
     options: [
       "search for a node at a specific position",
       "print a node at a specific position",
@@ -187,7 +187,7 @@ export const mcqQuestions: MCQQuestion[] = [
   {
     id: "mcq_16",
     type: "mcq",
-    question: "According to the lab material, how does a circular linked list differ from a singly linked list regarding the last node?",
+    question: "How does a circular linked list differ from a singly linked list regarding the last node?",
     options: [
       "in a circular linked list, the last node deletes itself automatically",
       "in a circular linked list, the last node points back to the first node, creating a loop, instead of pointing to null",
@@ -343,7 +343,7 @@ export const mcqQuestions: MCQQuestion[] = [
   {
     id: "mcq_32",
     type: "mcq",
-    question: "How is InsertionAtTail referred to in the lab?",
+    question: "How is InsertionAtTail referred to?",
     options: ["Append", "Reverse", "Delete"],
     answer: "Append"
   },
@@ -386,7 +386,7 @@ export const tfQuestions: TFQuestion[] = [
   {
     id: "tf_1",
     type: "tf",
-    question: "The parameterized Node constructor in the lab's code is Node(int val) : data(val), next(NULL), prev(NULL) {}.",
+    question: "The parameterized Node constructor is Node(int val) : data(val), next(NULL), prev(NULL) {}.",
     answer: true
   },
   {
@@ -398,19 +398,19 @@ export const tfQuestions: TFQuestion[] = [
   {
     id: "tf_3",
     type: "tf",
-    question: "The lab describes an operation called Search for a Key for inserting nodes.",
+    question: "An operation called Search for a Key for inserting nodes.",
     answer: false
   },
   {
     id: "tf_4",
     type: "tf",
-    question: "The lab covers an operation called Displaying the Linked List/Traversal.",
+    question: "An operation called Displaying the Linked List/Traversal is use in Link-List.",
     answer: true
   },
   {
     id: "tf_5",
     type: "tf",
-    question: "The lab describes an operation called Searching for a Key for removing nodes.",
+    question: "The lab (of Link-List) describes an operation called Searching for a Key for removing nodes.",
     answer: false
   },
   {
@@ -434,7 +434,7 @@ export const tfQuestions: TFQuestion[] = [
   {
     id: "tf_9",
     type: "tf",
-    question: "The lab describes an operation called DeleteAfter/Delete at any Position for inserting nodes.",
+    question: "The lab (of Link-List) describes an operation called DeleteAfter/Delete at any Position for inserting nodes.",
     answer: false
   },
   {
@@ -464,7 +464,7 @@ export const tfQuestions: TFQuestion[] = [
   {
     id: "tf_14",
     type: "tf",
-    question: "The DoublyLinkedList constructor in the lab's code is DoublyLinkedList(int val) : head(NULL), tail(NULL) {}.",
+    question: "The DoublyLinkedList constructor code is DoublyLinkedList(int val) : head(NULL), tail(NULL) {}.",
     answer: false
   },
   {
@@ -512,7 +512,7 @@ export const tfQuestions: TFQuestion[] = [
   {
     id: "tf_22",
     type: "tf",
-    question: "In the lab, InsertionAtTail is referred to as Prepend.",
+    question: "In the lab (of Link-List), InsertionAtTail is referred to as Prepend.",
     answer: false
   },
   {
@@ -539,7 +539,7 @@ export const fibQuestions: FIBQuestion[] = [
   {
     id: "fib_1",
     type: "fib",
-    question: "In the lab's code, the DoublyLinkedList class stores pointers to Node named head and ___",
+    question: "The DoublyLinkedList class stores pointers to Node named head and ___",
     answer: "tail"
   },
   {
